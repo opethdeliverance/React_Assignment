@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Pulp Fiction",
+        "year": "1994",
+        "cast": ["John Travolta", "Samuel L. Jackson", "Uma Thurman"],
+        "poster": "movie/pulpfictions.jpg",
+        "rating": 10
+    },
+    {
+        "name": "Casino",
+        "year": "1995",
+        "cast": ["Robert DeNiro", "Joe Pesci", "Sharon Stone"],
+        "poster": "movie/casino.jpg",
+        "rating": 10
+    },
+    {
+        "name": "Goodfellas",
+        "year": "1989",
+        "cast": ["Robert DeNiro", "Joe Pesci", "Ray Liotta"],
+        "poster": "movie/goodfellas.jpg",
+        "rating": 10
+    }
+]
