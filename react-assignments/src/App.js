@@ -1,10 +1,9 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 import { Routes, Route } from "react-router-dom";
+import { MovieList } from './movies'; 
 
-function MovieList(){
 
-}
 
 function App() {
 
@@ -22,11 +21,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         
-        <p>
+        <h1>
          MOVIE REVIEWS
-        </p>
+        </h1>
 
-        <MovieList movies={movies} setMovies={setMovies}/>
+            <MovieList movies={movies} setMovies={setMovies}/>
+         
+            {/* <SelectMovie/> */}
+          
         
       </header>
     </div>
