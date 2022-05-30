@@ -3,7 +3,7 @@
         "name": "Pulp Fiction",
         "year": "1994",
         "cast": ["John Travolta", "Samuel L. Jackson", "Uma Thurman"],
-        "poster": "movie/pulpfictions.jpg",
+        "poster": "movie/pulpfiction.jpg",
         "rating": 10
     },
     {
@@ -19,5 +19,20 @@
         "cast": ["Robert DeNiro", "Joe Pesci", "Ray Liotta"],
         "poster": "movie/goodfellas.jpg",
         "rating": 10
+    },
+    {
+        "name": "Evil Dead 2",
+        "year": "1986",
+        "cast": ["Bruce Campbell"],
+        "poster": "movie/evildead2.jpg",
+        "rating": 9
+    },
+    {
+        "name": "Boogie Nights",
+        "year": "1997",
+        "cast": ["Mark Wahlberg", "Julianne Moore", "Don Cheadle", "Burt Reynolds", "John C. Reilly", "Phillip Seymour Hoffman"],
+        "poster": "movie/boogienights.jpg",
+        "rating": 10
     }
+
 ]

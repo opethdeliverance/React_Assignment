@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 import { Routes, Route } from "react-router-dom";
-import { MovieList } from './movies'; 
+import { Movies, Home } from './pages'; 
 import NavBar from "./NavBar";
 
 
@@ -21,11 +21,15 @@ function App() {
   return (
     <>
     <NavBar/>
-        <h1>
-         MOVIE REVIEWS
-        </h1>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/movies" element={<Movies movies={movies} setMovies={setMovies}/>}/>
 
-        <MovieList movies={movies} setMovies={setMovies}/>
+
+
+        </Routes>
+
+        {/* <MovieList movies={movies} setMovies={setMovies}/> */}
         
       </>
   );

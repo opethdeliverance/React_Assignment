@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: black;
 }
 
 .App-logo {
@@ -35,4 +36,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+h1 {
+  text-align:center;
+  color:forestgreen;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+b {
+  text-align:center;
+  color: darkred;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+li {
+  text-align:center;
+  color: darkred;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header{
+  text-align:center;
+  color: firebrick;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:xx-large;
 }
