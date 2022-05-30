@@ -25,7 +25,7 @@ function App() {
          MOVIE REVIEWS
         </h1>
 
-        {/* <MovieList movies={movies} setMovies={setMovies}/> */}
+        <MovieList movies={movies} setMovies={setMovies}/>
         
       </>
   );
