@@ -12,12 +12,7 @@ export default function NavBar(){
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/movies">List of Movies</Link></li>
                 <li><Link to="/add">Add a Movie</Link></li>
-
             </ul>
-
-
-
-
         </div>
     );
 }
