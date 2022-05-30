@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 import { Routes, Route } from "react-router-dom";
 import { MovieList } from './movies'; 
+import NavBar from "./NavBar";
 
 
 
@@ -18,20 +19,15 @@ function App() {
     .catch( e => console.log(e.message));
   }, [])
   return (
-    <div className="App">
-      <header className="App-header">
-        
+    <>
+    <NavBar/>
         <h1>
          MOVIE REVIEWS
         </h1>
 
-            <MovieList movies={movies} setMovies={setMovies}/>
-         
-            {/* <SelectMovie/> */}
-          
+        {/* <MovieList movies={movies} setMovies={setMovies}/> */}
         
-      </header>
-    </div>
+      </>
   );
 }
 

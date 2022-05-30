@@ -1,15 +1,5 @@
 import React from 'react';
 
-// export function SelectMovie(){
-//     <>
-//     <ul>
-//         <img src = "movie/goodfellas.jpg"/>
-//     </ul>
-    
-    
-//     </>
-// }
-
 export function MovieList( {movies = [], onChangeMovies = f => f }) {
     return(
         <>
