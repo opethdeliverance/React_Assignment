@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+/react-assignments-backend/node_modules
 
 # testing
 /coverage
